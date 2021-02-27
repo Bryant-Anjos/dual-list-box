@@ -32,6 +32,66 @@ const options = [
     value: 'value 6',
     active: true,
   },
+  {
+    id: '7',
+    value: 'value 7',
+    active: false,
+  },
+  {
+    id: '8',
+    value: 'value 8',
+    active: false,
+  },
+  {
+    id: '9',
+    value: 'value 9',
+    active: false,
+  },
+  {
+    id: '10',
+    value: 'value 10',
+    active: true,
+  },
+  {
+    id: '11',
+    value: 'value 11',
+    active: true,
+  },
+  {
+    id: '12',
+    value: 'value 12',
+    active: true,
+  },
+  {
+    id: '13',
+    value: 'value 13',
+    active: false,
+  },
+  {
+    id: '14',
+    value: 'value 14',
+    active: false,
+  },
+  {
+    id: '15',
+    value: 'value 15',
+    active: false,
+  },
+  {
+    id: '16',
+    value: 'value 16',
+    active: true,
+  },
+  {
+    id: '17',
+    value: 'value 17',
+    active: true,
+  },
+  {
+    id: '18',
+    value: 'value 18',
+    active: true,
+  },
 ]
 
 export default function Home() {
