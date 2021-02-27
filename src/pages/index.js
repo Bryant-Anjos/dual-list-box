@@ -1,4 +1,5 @@
 import DualListBox from '@components/DualListBox'
+import styles from '@styles/main.module.css'
 
 const options = [
   {
@@ -34,5 +35,9 @@ const options = [
 ]
 
 export default function Home() {
-  return <DualListBox options={options} />
+  return (
+    <main className={styles.main}>
+      <DualListBox options={options} />
+    </main>
+  )
 }

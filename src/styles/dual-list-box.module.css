@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.container div.box {
+  box-shadow: 3px 5px 10px #ccc;
+  border-radius: 4px;
+  height: 250px;
+}
+
+.container div + div {
+  margin-left: 15px;
+}
+
+.container div.buttons {
+  justify-content: center;
+}
+
+.container div.buttons button {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  margin: 1px 0;
+  box-shadow: 3px 5px 10px #ccc;
+  background-color: #009ac0;
+  color: white;
+}
+
+.container div.buttons button:focus {
+  outline: none;
+}
+
+.container ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  min-width: 250px;
+}
+
+.container li {
+  cursor: pointer;
+  padding: 2px 5px;
+  margin: 1px 0;
+  border-radius: 4px;
+}
+.container li.selected {
+  background-color: #009ac0;
+  color: white;
+}
